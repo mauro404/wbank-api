@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rL2ZIJudCGkzIznfITmFTWFkTpNjYkpQapbquu6+l5c=",
+  "Source": "WBank.API",
+  "BasePath": "_content/WBank.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

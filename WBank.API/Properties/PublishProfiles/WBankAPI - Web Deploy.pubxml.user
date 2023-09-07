@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzMGsIybLP0e1HG7NBL/YCwAAAAACAAAAAAAQZgAAAAEAACAAAABbFDrp2MlsMqYyVl2PNIynKIs8a10Gm/OaxMfDTkd0fwAAAAAOgAAAAAIAACAAAAANsqJ8f50jEiEZZi0iLHTP23efvk0U9EkEKWnyCWlXbYAAAADVusaOBqzqWC1ZZxo/b18yBM+OWT3aacjNDtulTMup29l4g5seNJqG92ou0B9l4q5+v0YxcMku7byX1udlj6C40skAZ8ZPDSAJ9fMlsAsnWTnAnn8MW1Op1ateiwGbUHEFqlbu0gc2K9nbR/d61OZdLMKMKRQoK8hLP/nCGMo8pkAAAAAHYfkJhl330atzKsgTfvhTGGl7jQrNEs00jJdlurOP+vhlMuM34gUjHt2fd432ZdHNKh8/eOWKLoLfvEomLKjM</EncryptedPassword>
+    <History>False|2023-09-07T14:40:46.3951997Z;False|2023-09-07T16:16:59.6569831+02:00;False|2023-09-07T15:47:08.6923777+02:00;False|2023-09-07T15:45:26.0177550+02:00;False|2023-09-07T15:39:27.3312055+02:00;True|2023-09-07T12:56:15.7004643+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="WBankConnectionString">
+      <Value>Data Source=tcp:wbankdbdbserver.database.windows.net,1433%3bInitial Catalog=WBankDb%3bUser Id=wbankdb%40wbankdbdbserver%3bPassword=wbankdb</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="WBank.API.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:wbankdbdbserver.database.windows.net,1433%3bInitial Catalog=WBankDb%3bUser Id=wbankdb%40wbankdbdbserver%3bPassword=wbankdb</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

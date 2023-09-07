@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4Px/YpXCjbvSM3+hzAd+7+ror/csy9bwrIyOCMebiSE=",
+  "Source": "WBank.API",
+  "BasePath": "_content/WBank.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WBank.API.props" />
+</Project>
